@@ -1,23 +1,3 @@
----
-title: Azure Monitor Agent support in Connection Monitor in Azure | Microsoft Docs
-description: Learn how to use Azure Monitor Agent with Connection Monitor to monitor network communication in a distributed environment.
-services: network-watcher
-documentationcenter: na
-author: mjha
-manager: vinigam
-editor: ''
-tags: azure-resource-manager
-
-ms.service: network-watcher
-ms.topic: how-to
-ms.tgt_pltfrm: na
-ms.workload:  infrastructure-services
-ms.date: 06/09/2022
-ms.author: mjha
-ms.custom: mvc
-#Customer intent: I need to monitor communication between one endpoint and another using Azure Monitor Agent with Connection Monitor. 
----
-
 # Monitor Network Connectivity using Azure Monitor Agent with Connection Monitor (Private Preview)
 
 Connection Monitor now supports Azure Monitor Agent extension, thus eliminating the dependency on the legacy Log Analytics agent. 
@@ -25,8 +5,6 @@ Connection Monitor now supports Azure Monitor Agent extension, thus eliminating 
 With Azure Monitor Agent, we aim to serve a single agent that will consolidate all the features necessary to address all connectivity logs and metrics data collection needs across Azure and On-premises machines as compared to running various monitoring agents. 
 Azure Monitor Agent provides enhanced security and performance capabilities, effective cost savings with efficient data collection & ease of troubleshooting with simpler management of data collection with respect to Log Analytics agent. 
 Learn more about [Azure Monitor Agent](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-overview?tabs=PowerShellWindows).
-
-:::image type="content" source="./media/hero-graphic-new.png" alt-text="Screenshot of Connection Monitor.":::
 
 This article provides detailed instructions and guidance for installing the Azure Monitor Agent and using it for connectivity monitoring with Connection Monitor. It also explains how to enable Azure ARC for on-premises endpoints for faster and smoother troubleshooting. 
 To start using Connection Monitor for monitoring, do the following:
