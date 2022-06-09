@@ -55,9 +55,7 @@ Use the Azure portal to create a script that automates the agent download and in
 
 1. Launch the Azure Arc service in the Azure portal by searching for and selecting **Servers - Azure Arc**.
 
-   :::image type="content" source="./media/enable-arc-server.png" alt-text="Screenshot of search for Azure Arc-enabled servers in the Azure portal.":::
-
-1. On the **Servers - Azure Arc** page, select **Add** near the upper left.
+  1. On the **Servers - Azure Arc** page, select **Add** near the upper left.
 
 1. On the next page, from the **Add a single server** tile, select **Generate script**.
 
@@ -108,8 +106,6 @@ Follow the steps below for the operating system of your server.
 ###### Verify the connection with Azure Arc
 
 After you install the agent and configure it to connect to Azure Arc-enabled servers, go to the Azure portal to verify that the server has successfully connected. View your machine in the [Azure portal](https://aka.ms/hybridmachineportal).
-
-:::image type="content" source="./media/confirm-arc-enable.png" alt-text="Screenshot showing successful machine connection." border="false":::
 
 ##### Connect hybrid machines to Azure by using PowerShell
 
